@@ -1,0 +1,82 @@
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+     font-size: 20px;
+     font-weight: 600;
+     margin-left: 20px;
+     color: #5E548E;
+}
+
+#contenedor p {
+    font-size: 18px;
+    font-weight: 300;
+}
+#cabecera {
+    height: 85px;
+    margin: -10px;
+}
+#cabecera p {
+    text-align: right;
+    margin-top: 0;
+    padding: 15px;
+}
+#contenedor {
+    height: 500px;
+    width: 1520px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.bloque {
+    width: 300px;
+    height: 500px;
+    margin: 40px;
+    float: left;
+}
+.cuadrados {
+    width: 300px;
+    height: 300px;
+    background-color: #E0B1CB;
+    position: relative;
+}
+.imgs {
+    width: 300px;
+    height: 378px;
+    bottom: 0;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center; 
+}
+
+#img1 {
+    background-image: url(img/caricatura.png);
+    
+}
+#img2 {
+    background-image: url(img/semaforo.png);
+}
+#img3 {
+    background-image: url(img/pc.png);
+    height: 300px;
+}
+#img4 {
+    background-image: url(img/calendario.png);
+}
+footer {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-left: -10px;
+}
+footer p {
+    margin-left: 50px;
+}
+.cuadrados :hover {
+    scale: 120%;
+}
