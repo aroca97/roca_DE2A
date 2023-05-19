@@ -1,0 +1,61 @@
+body {
+    background-color: lightpink;
+}
+#contenedor{
+    height: 530px;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#semaforo {
+    background-color: #fbb91a;
+    width: 250px;
+    height: 530px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: absolute;
+}
+.sombra {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #ce9008;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px; 
+}
+.color {
+    width: 135px;
+    height: 135px;
+    border-radius: 100%; 
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 20px;
+    left: 7.5px;
+    right: 7.5px;   
+}
+#rojo {
+    background-color: darkred;
+}
+#ambar {
+    background-color: orange;
+}
+#verde {
+    background-color: darkgreen;
+}
+@media (max-width: 650px) {
+    #rojo {
+        background-color: red;
+    }
+    #ambar {
+        background-color: darkgoldenrod;
+    }
+}
+@media (min-width: 1500px) {
+    #verde {
+        background-color:green;
+    }
+    #ambar {
+        background-color: darkgoldenrod;
+    }
+}
