@@ -1,0 +1,189 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+#header {
+  height: 69px;
+  margin-top: -20px;
+}
+
+#logo {
+  background-color: ;
+  height: 69px;
+  width: 151px;
+  background-image: url(logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+  margin-right: 70px;
+}
+#subt {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 20pt;
+  padding-top: 20px;
+}
+#menu {
+  height:44px;
+  min-width: 1000px;
+  background-color: #E5E5E5;
+  margin: -10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#menu li {
+  display: inline-block;
+  margin-top: 12px;
+}
+.nav li a {
+  text-decoration: none;
+  color: black;
+  width: 148px;
+  padding-left: : 40px;
+  padding-right: 40px;
+  display: block;
+}
+.nav > li {
+  float: inherit;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+}
+.nav li ul {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  background-color: #E5E5E5;
+  display: none;
+  font-size: 12pt;
+  text-align: left;
+}
+
+.nav li ul li ul {
+  right: -188px;
+  top: 0px;
+  position: absolute;
+
+}
+
+.nav li ul li ul a {
+  display:none;
+}
+.nav li ul li:hover > ul li a{
+  display: block;
+  position: relative;
+}
+
+.nav > li:hover > ul {
+  display: block;
+  border-color: lightblue;
+
+}
+.nav > li:hover ul {
+  display: grid;
+
+}
+
+.titulo1 {
+  font-size: 14pt;
+  font-weight: bold;
+  margin-bottom: 31px;
+  margin-left: 10px;
+  }
+
+
+#contenedor {
+  width: 780px;
+  height: 1024px;
+  margin: 0 auto;
+  padding-top: 56px;
+  background-color: #EFEDED;
+  margin-bottom: -10px;
+}
+#novedades {
+  width: 772px;
+  height: 413px;
+}
+.nov {
+  height: 320px;
+  width: 217px;
+  float: left;
+  margin-left: 29px;
+}
+.nov:hover {
+  -webkit-transform:scale(1.25);
+  -moz-transform:scale(1.25);
+  -ms-transform:scale(1.25);
+  -o-transform:scale(1.25);
+  transform:scale(1.25);
+}
+#nov1 {
+  background-image: url(slide1.jpg);
+  background-size: cover;
+}
+#nov2 {
+  background-image: url(slide2.jpg);
+  background-size: cover;
+}
+#nov3 {
+  background-image: url(slide3.jpg);
+  background-size: cover;
+}
+
+#entradas {
+  font-size: 12pt;
+  font-weight: normal;
+  }
+.titulo2 {
+  font-size: 14pt;
+  font-weight: bold;
+  margin-top: 11px;
+  float: left;
+}
+.ent {
+  max-width: 772px;
+  height: 190px;
+  text-align: justify;
+  margin-right: 24px;
+
+}
+#img1 {
+  margin-top: 11px;
+  margin-right: 24px;
+  margin-left: 10px;
+  width: 264px;
+  height: 168px;
+  float: left;
+  background-image: url(entrada2.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+#img2 {
+  margin-top: 11px;
+  margin-right: 24px;
+  margin-left:10px;
+  width: 264px;
+  height: 168px;
+  float: left;
+  background-image: url(dibujante.jpg);
+  background-size: cover;
+}
+.text{
+}
+#entradas div {
+  margin-bottom: 31px;
+}
+
+#footer {
+  height: 50px;
+  background-color: #E5E5E5;
+  margin: -10px;
+  bottom: 0;
+  text-align: center;
+}
+.copy {
+  padding-top: 20px;
+  font-size: 9pt;
+
+}
